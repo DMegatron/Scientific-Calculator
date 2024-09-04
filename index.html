@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <button id="dark-mode-toggle" class="dark-mode" aria-label="Toggle Dark Mode">🌙</button>
+
+    <div class="main-body">
+
+        <div class="calc-output">
+            <input type="text" class="output" readonly>
+        </div>
+
+        <div class="calc">
+
+            <!-- Row 1 -->
+            <div class="cell"><input type="button" value="("></div>
+            <div class="cell"><input type="button" value=")"></div>
+            <div class="cell"><input type="button" value="mc"></div>
+            <div class="cell"><input type="button" value="m+"></div>
+            <div class="cell"><input type="button" value="m-"></div>
+            <div class="cell"><input type="button" value="mr"></div>
+            <div class="cell"><input type="button" value="AC"></div>
+            <div class="cell"><input type="button" value="X"></div>
+            <div class="cell"><input type="button" value="%"></div>
+            <div class="cell"><input type="button" value="/" style="background-color: rgb(242, 163, 62);"></div>
+
+            <!-- Row 2 -->
+            <div class="cell"><input type="button" value="2nd"></div>
+            <div class="cell"><input type="button" value="x²"></div>
+            <div class="cell"><input type="button" value="x³"></div>
+            <div class="cell"><input type="button" value="xʸ"></div>
+            <div class="cell"><input type="button" value="eˣ"></div>
+            <div class="cell"><input type="button" value="10ˣ"></div>
+            <div class="cell"><input type="button" value="7" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="8" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="9" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="*" style="background-color: rgb(242, 163, 62);"></div>
+
+            <!-- Row 3 -->
+            <div class="cell"><input type="button" value="1/x"></div>
+            <div class="cell"><input type="button" value="&#8730;x"></div>
+            <div class="cell"><input type="button" value="&#8731;x"></div>
+            <div class="cell"><input type="button" value="ʸ&#8730x"></div>
+            <div class="cell"><input type="button" value="Ln"></div>
+            <div class="cell"><input type="button" value="log"></div>
+            <div class="cell"><input type="button" value="4" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="5" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="6" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="-" style="background-color: rgb(242, 163, 62);"></div>
+
+            <!-- Row 4 -->
+            <div class="cell"><input type="button" value="x!"></div>
+            <div class="cell"><input type="button" value="sin"></div>
+            <div class="cell"><input type="button" value="cos"></div>
+            <div class="cell"><input type="button" value="tan"></div>
+            <div class="cell"><input type="button" value="e"></div>
+            <div class="cell"><input type="button" value="EE"></div>
+            <div class="cell"><input type="button" value="1" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="2" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="3" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="+" style="background-color: rgb(242, 163, 62);"></div>
+
+            <!-- Row 5 -->
+            <div class="cell"><input type="button" value="Rad" style="border-radius: 0 0 0 10px;"></div>
+            <div class="cell"><input type="button" value="sinh"></div>
+            <div class="cell"><input type="button" value="cosh"></div>
+            <div class="cell"><input type="button" value="tanh"></div>
+            <div class="cell"><input type="button" value="&#960"></div>
+            <div class="cell"><input type="button" value="Rand"></div>
+            <div class="cell" style="grid-column: span 2;"><input type="button" value="0" style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="." style="background-color: rgb(129, 130, 132);"></div>
+            <div class="cell"><input type="button" value="=" style="background-color: rgb(242, 163, 62); border-radius: 0 0 10px 0;"></div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
